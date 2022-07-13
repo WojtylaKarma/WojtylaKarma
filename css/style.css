@@ -209,11 +209,6 @@ main .site-title .btn:hover {
 
 /*----------------------Carousel----------------------*/
 
-main .title {
-    justify-content: center;
-    padding-top: 3rem;
-}
-
 main .blog {
     background: url('../assets/Abract01.png');
     background-repeat: no-repeat;
@@ -285,6 +280,10 @@ main .site-content {
 
 main .post-content{
     width: 100%;
+}
+
+main .site-content .title {
+    justify-content: center;
 }
 
 main .site-content .post-content > .post-image, .post-title {
@@ -395,7 +394,7 @@ main .post-content .post-title a {
 }
 
 .site-content .sidebar .newsletter{
-    padding-top: 10rem;
+    padding-top: 15rem;
 }
 
 .site-content .sidebar .newsletter .form-element {
